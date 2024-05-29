@@ -1,8 +1,11 @@
+* {
+  box-sizing: border-box;
+}
 .top_nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+
   gap: 4rem;
   width: auto;
   height: 80px;
@@ -57,8 +60,6 @@
 }
 
 .coffe_list {
-  box-sizing: border-box;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -67,13 +68,19 @@
   background-color: rgb(48, 47, 47);
   font-family: "Poiret One", sans-serif;
   color: white;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 .product {
   list-style: none;
+
+  text-align: left;
+  background-color: rgb(0, 0, 0);
 }
 
 .price {
   list-style: none;
+
+  padding-right: 2rem;
+  background-color: rgb(0, 0, 0);
 }
